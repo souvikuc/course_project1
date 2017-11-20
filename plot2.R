@@ -1,3 +1,5 @@
+#this code will create necessary folder and then download the dataset from web. After downloading the file it will unzip the file 
+
 library(lubridate)
 if(!dir.exists("C://Users/souvi/Documents/coursera/data_source")){dir.create("C://Users/souvi/Documents/coursera/data_source")}
 fileURL<-"https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
